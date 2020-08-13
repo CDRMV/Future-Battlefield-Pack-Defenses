@@ -9,12 +9,12 @@
 #****************************************************************************
 local CStructureUnit = import('/lua/cybranunits.lua').CStructureUnit
 local CDFParticleCannonWeapon = import('/lua/cybranweapons.lua').CDFParticleCannonWeapon
-local CDFMissileMesonWeapon = import('/lua/cybranweapons.lua').CDFMissileMesonWeapon
+local CAAMissileNaniteWeapon = import('/lua/cybranweapons.lua').CAAMissileNaniteWeapon
 
 URB2103 = Class(CStructureUnit) {
     Weapons = {
         MainGun = Class(CDFParticleCannonWeapon) {},
-        GroundGun = Class(CDFMissileMesonWeapon) {},
+        GroundGun = Class(CAAMissileNaniteWeapon) {},
     },
 }
 

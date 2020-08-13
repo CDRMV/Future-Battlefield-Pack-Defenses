@@ -317,7 +317,7 @@ UnitBlueprint {
             Audio = {
                 Fire = Sound {
                     Bank = 'URLWeapon',
-                    Cue = 'URL_Meson_Rocket',
+                    Cue = 'URB2304_Missile_Nanite',
                     LodCutoff = 'Weapon_LodCutoff',
                 },
             },
@@ -325,7 +325,7 @@ UnitBlueprint {
             CollideFriendly = false,
             Damage = 10,
             DamageType = 'Normal',
-            DisplayName = 'Xeno Rocket',
+            DisplayName = 'Nanite Rocket',
             FireTargetLayerCapsTable = {
                 Land = 'Land|Water',
                 Water = 'Land|Water',
@@ -338,7 +338,7 @@ UnitBlueprint {
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 8,
 			PrefersPrimaryWeaponTarget = true,
-            ProjectileId = '/mods/Future Battlefield Pack/projectiles/CDFXenonitRocket01/CDFXenonitRocket01_proj.bp',
+            ProjectileId = '/projectiles/CAAMissileNanite02/CAAMissileNanite02_proj.bp',
             ProjectileLifetime = 8.4,
             ProjectilesPerOnFire = 1,
             RackBones = {
