@@ -9,13 +9,13 @@
 #****************************************************************************
 
 local TStructureUnit = import('/lua/terranunits.lua').TStructureUnit
-local WeaponFile = import('/lua/terranweapons.lua')
-local TDFLaserLightWeapon = WeaponFile.TDFLaserLightWeapon
+local FBPDWeaponFile = import('/mods/Future Battlefield Pack Defenses/lua/FBPDweapons.lua')
+local TDFStationaryLaserLightWeapon = FBPDWeaponFile.TDFStationaryLaserLightWeapon
 
 UEB2202b = Class(TStructureUnit) {
     Weapons = {
-        GroundGun = Class(TDFLaserLightWeapon) {},
-        AAGun = Class(TDFLaserLightWeapon) {},        
+        GroundGun = Class(TDFStationaryLaserLightWeapon) {},
+        AAGun = Class(TDFStationaryLaserLightWeapon) {},        
     },
     
     OnCreate = function(self)

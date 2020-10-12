@@ -217,7 +217,7 @@ UnitBlueprint {
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 35,
-            ProjectileId = '/mods/Future Battlefield Pack New Techs/projectiles/LaserblueLight/LaserblueLight_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Defenses/projectiles/StationaryLaserblueLight/StationaryLaserblueLight_proj.bp',
             ProjectileLifetimeUsesMultiplier = 1.15,
             ProjectilesPerOnFire = 1,
             RackBones = {
@@ -298,7 +298,7 @@ UnitBlueprint {
             MuzzleSalvoDelay = 0,
             MuzzleSalvoSize = 2,
             MuzzleVelocity = 35,
-            ProjectileId = '/mods/Future Battlefield Pack New Techs/projectiles/LaserblueLight/LaserblueLight_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Defenses/projectiles/StationaryLaserblueLight/StationaryLaserblueLight_proj.bp',
             ProjectileLifetimeUsesMultiplier = 1.25,
             ProjectilesPerOnFire = 2,
             RackBones = {

@@ -122,7 +122,7 @@ UnitBlueprint {
 		BuildRate = 30,
         BuildTime = 1700,
 		BuildableCategory = {
-			'ueb2306',
+			'ueb2310',
             'BUILTBYTIER1FACTORY UEF MOBILE CONSTRUCTION',
             'BUILTBYTIER1FACTORY UEF MOBILE LAND',
 			'BUILTBYTIER2FACTORY UEF MOBILE CONSTRUCTION',
@@ -131,7 +131,7 @@ UnitBlueprint {
 		RebuildBonusIds = {
             'ueb2105',
 			'ueb2207',
-			'ueb2306',
+			'ueb2310',
         },
     },
     Footprint = {
@@ -172,7 +172,7 @@ UnitBlueprint {
         TechLevel = 'RULEUTL_Advanced',
         UnitWeight = 1,
 		UpgradesFrom = 'ueb2105',
-		UpgradesTo = 'ueb2306',
+		UpgradesTo = 'ueb2310',
     },
 	Intel = {
         VisionRadius = 40,

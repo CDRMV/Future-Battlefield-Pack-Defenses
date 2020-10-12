@@ -186,7 +186,7 @@ UnitBlueprint {
             MuzzleSalvoSize = 1,
             MuzzleVelocity = 10,
             NoPause = true,
-            ProjectileId = '/mods/Future Battlefield Pack New Techs/projectiles/FlameProjectile01/FlameProjectile01_proj.bp',
+            ProjectileId = '/mods/Future Battlefield Pack Defenses/projectiles/StationaryFlameProjectile01/StationaryFlameProjectile01_proj.bp',
             ProjectileLifetime = 2.3,
             ProjectilesPerOnFire = 1,
             RackBones = {

@@ -8,12 +8,12 @@
 #**  Copyright © 2005 Gas Powered Games, Inc.  All rights reserved.
 #****************************************************************************
 local TStructureUnit = import('/lua/terranunits.lua').TStructureUnit
-local WeaponFile = import('/lua/terranweapons.lua')
-local TLightningWeapon01 = WeaponFile.TLightningWeapon01
+local FBPDWeaponFile = import('/mods/Future Battlefield Pack Defenses/lua/FBPDweapons.lua')
+local TStationaryLightningWeapon01 = FBPDWeaponFile.TStationaryLightningWeapon01
 
 UEB2103 = Class(TStructureUnit) {
     Weapons = {
-        PhasonBeam = Class(TLightningWeapon01) {},
+        PhasonBeam = Class(TStationaryLightningWeapon01) {},
     },
 
     OnStopBeingBuilt = function(self,builder,layer)

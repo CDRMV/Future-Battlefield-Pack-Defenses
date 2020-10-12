@@ -118,11 +118,11 @@ UnitBlueprint {
 		BuildRate = 30,
         BuildTime = 1700,
 		BuildableCategory = {
-			'ueb2306b',
+			'ueb2310b',
         },
 		RebuildBonusIds = {
 			'ueb2207b',
-			'ueb2306b',
+			'ueb2310b',
         },
     },
     Footprint = {

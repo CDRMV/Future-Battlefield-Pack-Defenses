@@ -128,7 +128,7 @@ UnitBlueprint {
 		RebuildBonusIds = {
             'ueb2105',
 			'ueb2207',
-			'ueb2306',
+			'ueb2310',
         },
     },
     Footprint = {
