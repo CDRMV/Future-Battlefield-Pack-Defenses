@@ -1,5 +1,5 @@
 # Future-Battlefield-Pack-Defenses
-'Future Battlefield Pack: Defenses' is a Submod for F.B.P: Legends. It adds several new Defense Buildings like Outposts, Fortresses and more into the Game.
+'Future Battlefield Pack: Defenses' is a Submod of the F.B.P. Modproject. It adds several new Defense Buildings like Outposts, Fortresses and more into the Game.
 
 Important:
 
