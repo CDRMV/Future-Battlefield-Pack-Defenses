@@ -69,7 +69,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 0,
     },
-    Description = 'Defense Fortess',
+    Description = 'Defense Fortress',
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',
@@ -154,7 +154,7 @@ UnitBlueprint {
         SelectionPriority = 5,
         TechLevel = 'RULEUTL_Advanced',
         UnitWeight = 1,
-		UpgradesTo = 'ueb2306b',
+		UpgradesTo = 'ueb2310b',
     },
 	Intel = {
         VisionRadius = 40,

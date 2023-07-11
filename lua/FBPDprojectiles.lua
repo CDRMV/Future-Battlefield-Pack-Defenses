@@ -160,3 +160,4 @@ StationaryTExperimentalMaserCannonProjectile = Class(EmitterProjectile) {
     FxTrailOffset = 0,
 }
 
+

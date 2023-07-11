@@ -43,23 +43,6 @@ TDFStationaryLaserLightWeapon = Class(DefaultProjectileWeapon) {
     PolyTrail = {'/effects/emitters/aeon_laser_trail_01_emit.bp'},
 }
 
-ADFQuadLaserLightWeapon = Class(DefaultProjectileWeapon) {
-    FxMuzzleFlash = {'/effects/emitters/flash_04_emit.bp' },
-}
-
-ADFLaserLightWeapon = Class(DefaultProjectileWeapon) {
-    FxMuzzleFlash = {'/effects/emitters/flash_04_emit.bp' },
-}
-
-ADFSonicPulsarWeapon = Class(DefaultProjectileWeapon) {
-    FxMuzzleFlash = {'/effects/emitters/flash_02_emit.bp' },
-    FxMuzzleFlashScale = 0.5,
-}
-
-ADFLaserHeavyWeapon = Class(DefaultProjectileWeapon) {
-    FxChargeMuzzleFlash = {},
-}
-
 TStationaryAtomicRayBeamWeapon = Class(DefaultBeamWeapon) {
     BeamType = StationaryAtomicRayCollisionBeam,
     FxUpackingChargeEffects = {},

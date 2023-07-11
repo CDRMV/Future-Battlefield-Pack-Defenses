@@ -9,6 +9,11 @@ EmtBpPath = '/effects/emitters/'
 EmtBpPathAlt = '/mods/Future Battlefield Pack Defenses/effects/emitters/'
 EmitterTempEmtBpPath = '/effects/emitters/temp/'
 
+FireCloudSml04 = {
+    EmtBpPathAlt .. 'Blue_Laser_cloud_01_emit.bp',
+    EmtBpPathAlt .. 'Blue_Laser_cloud_02_emit.bp',
+}
+
 StationaryFlameThrowerHitLand01 = {
     EmtBpPathAlt .. 'stationary_flamerthrower_flash_emit.bp',
     EmtBpPathAlt .. 'stationary_flamerthrower_thick_smoke_emit.bp',

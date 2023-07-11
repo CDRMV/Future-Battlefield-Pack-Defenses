@@ -45,7 +45,7 @@ UnitBlueprint {
         SubThreatLevel = 0,
         SurfaceThreatLevel = 0,
     },
-    Description = 'Fortess',
+    Description = 'Fortress',
     Display = {
         Abilities = {
             '<LOC ability_aa>Anti-Air',
